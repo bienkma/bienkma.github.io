@@ -19,7 +19,7 @@ cryptsetup luksOpen /dev/data/data01 data
 mkdir -p /data
 mkfs.xfs -f /dev/mapper/data
 ```
-  - Lệnh này chỉ chạy khi ổ cứng sdb của bạn là SSD hoặc NVMe thôi nhé. Mục đích là không cần cơ chế quản lý queue của OS [here](https://www.cloudbees.com/blog/linux-io-scheduler-tuning)
+- Lệnh này chỉ chạy khi ổ cứng sdb của bạn là SSD hoặc NVMe thôi nhé. Mục đích là không cần cơ chế quản lý queue của OS [here](https://www.cloudbees.com/blog/linux-io-scheduler-tuning)
 ```sh
 echo none > /sys/block/sdb/queue/scheduler
 ```
@@ -27,7 +27,7 @@ echo none > /sys/block/sdb/queue/scheduler
 ```sh
 echo 'data /dev/mapper/data-data01 /etc/data-at-rest/data-data01 luks' >> /etc/crypttab
 ```
-  - Tạo file chứa thông tin secret để mã hoá và loại bỏ thông tin nhạy cảm trong history của bash
+- Tạo file chứa thông tin secret để mã hoá và loại bỏ thông tin nhạy cảm trong history của bash
 ```sh
 export HISTSIZE=0
 mkdir -p /etc/data-at-rest/
@@ -39,11 +39,11 @@ chmod 0400
 chmod 0744 /etc/data-at-rest
 export HISTSIZE=20000
 ```
-  - Add file key cho phép thông tin mount được sử dụng
+- Add file key cho phép thông tin mount được sử dụng
 ```shell
 cryptsetup -v luksAddKey /dev/data/data01 /etc/data-at-rest/data-data01
 ```
-  - Add thông tin mount trong fstab, 2 option noatime và nodiratime để tối ưu performance disk thôi bạn có thể tìm hiểu ý nghĩa 2 options này trên google nhé ;)
+- Add thông tin mount trong fstab, 2 option noatime và nodiratime để tối ưu performance disk thôi bạn có thể tìm hiểu ý nghĩa 2 options này trên google nhé ;)
 ```shell
 echo '/dev/mapper/data /data xfs defaults,noatime,nodiratime 0 0' >> /etc/fstab
 mount /data
