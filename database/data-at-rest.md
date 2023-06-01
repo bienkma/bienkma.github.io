@@ -7,6 +7,7 @@
   - Ổ cứng cần mã hoá đặt tại /dev/sdb 
   - Hệ điều hành: Ubuntu 22.04
   - password encryption: plz_change_me_now
+  - Thực thi các câu lệnh dưới với quyền root
 - Các câu lệnh thực hiện mã hoá:
 ```sh
 wipefs --all --backup /dev/sdb
@@ -51,6 +52,6 @@ mount /data
 - kiểm tra kết quả
 ```shell
 lsblk
-luksDump /dev/data/data01
+cryptsetup luksDump /dev/data/data01
 ```
 - *Notes*: Cơ bản ổ cứng /dev/sdb đã được tạo 1 LVM partition ở /dev/data/data01 và được mount ở folder /data. Tiếp theo bạn chỉ cần cài đặt mysql, es, mongodb, redis, blabla... ở folder /data. Folder được mã hoá ổ cứng. Khi ổ cứng máy chủ bị mất cắp hoặc mount vào 1 máy chủ khác nếu kẻ tấn công không có key giải mã, chúng sẽ không thể giải mã được ổ cứng.
