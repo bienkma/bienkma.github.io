@@ -6,12 +6,13 @@
 - Cấu hình lab:
   - Ổ cứng cần mã hoá đặt tại /dev/sdb 
   - Hệ điều hành: Ubuntu 22.04
+  - password encryption: plz_change_me_now
 - Các câu lệnh thực hiện mã hoá:
 ```sh
-wipefs --all --backup /dev/sda
+wipefs --all --backup /dev/sdb
 lsblk
-pvcreate /dev/sda
-vgcreate data /dev/sda
+pvcreate /dev/sdb
+vgcreate data /dev/sdb
 lvcreate -l +100%free -n data01 data
 cryptsetup --verbose --verify-passphrase luksFormat  /dev/data/data01
 cryptsetup luksOpen /dev/data/data01 data
@@ -24,12 +25,32 @@ echo none > /sys/block/sdb/queue/scheduler
 ```
   - Add vào crypttab để nó tự boot khi server khởi động lại
 ```sh
-vi /etc/crypttab
+echo 'data /dev/mapper/data-data01 /etc/data-at-rest/data-data01 luks' >> /etc/crypttab
+```
+  - Tạo file chứa thông tin secret để mã hoá và loại bỏ thông tin nhạy cảm trong history của bash
+```sh
+export HISTSIZE=0
 mkdir -p /etc/data-at-rest/
-cat /etc/crypttab
-vi /etc/data-at-rest/data-data01
+mkdir -p /data
+touch /etc/data-at-rest/data-data01
+echo "plz_change_me_now" > /etc/data-at-rest/data-data01
 chmod 400 etc/data-at-rest/data-data01
-chmod 0400 /etc/data-at-rest/data-data01
+chmod 0400 
 chmod 0744 /etc/data-at-rest
+export HISTSIZE=20000
+```
+  - Add file key cho phép thông tin mount được sử dụng
+```shell
 cryptsetup -v luksAddKey /dev/data/data01 /etc/data-at-rest/data-data01
 ```
+  - Add thông tin mount trong fstab, 2 option noatime và nodiratime để tối ưu performance disk thôi bạn có thể tìm hiểu ý nghĩa 2 options này trên google nhé ;)
+```shell
+echo '/dev/mapper/data /data xfs defaults,noatime,nodiratime 0 0' >> /etc/fstab
+mount /data
+```
+- kiểm tra kết quả
+```shell
+lsblk
+luksDump /dev/data/data01
+```
+- *Notes*: Cơ bản ổ cứng /dev/sdb đã được tạo 1 LVM partition ở /dev/data/data01 và được mount ở folder /data. Tiếp theo bạn chỉ cần cài đặt mysql, es, mongodb, redis, blabla... ở folder /data. Folder được mã hoá ổ cứng. Khi ổ cứng máy chủ bị mất cắp hoặc mount vào 1 máy chủ khác nếu kẻ tấn công không có key giải mã, chúng sẽ không thể giải mã được ổ cứng.
