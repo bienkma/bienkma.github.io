@@ -35,7 +35,7 @@ mkdir -p /etc/data-at-rest/
 mkdir -p /data
 touch /etc/data-at-rest/data-data01
 echo "plz_change_me_now" > /etc/data-at-rest/data-data01
-chmod 400 etc/data-at-rest/data-data01
+chmod 400 /etc/data-at-rest/data-data01
 chmod 0400 
 chmod 0744 /etc/data-at-rest
 export HISTSIZE=20000
