@@ -23,7 +23,7 @@ mkfs.xfs -f /dev/mapper/data
 ```sh
 echo none > /sys/block/sdb/queue/scheduler
 ```
-  - Add vào crypttab để nó tự boot khi server khởi động lại
+- Add vào crypttab để nó tự boot khi server khởi động lại
 ```sh
 echo 'data /dev/mapper/data-data01 /etc/data-at-rest/data-data01 luks' >> /etc/crypttab
 ```
