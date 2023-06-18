@@ -68,6 +68,7 @@ spec:
 - [Book](#book)
 
 ## Principle
+* [NoSQL vs. SQL: Important Differences & Which One Is Best for Your Project](https://www.upwork.com/resources/nosql-vs-sql)
 ## Scalability
 ## Availability
 ## Stability
@@ -81,3 +82,4 @@ spec:
 * [System Design the big archive](https://blog.bytebytego.com/api/v1/file/d60fa09a-c4b5-4e31-9dbd-5d049c6c8f49.pdf)
 ## Step by step
 * [How to setup data at rest encryption on Ubuntu](./database/data-at-rest.md)
+* [Howto setup many services on Centos](https://www.server-world.info/en/note)
