@@ -9,6 +9,9 @@ spec:
   languages: # in order of proficiency
     - Vietnamese
     - English
+  education:
+    - Academy of Cryptography Techniques (2005-2010) # Information security engineer
+    - Academy of Cryptography Techniques (2015-2017) # The Master of Information security 
   code: # in order of proficiency
     - bash
     - golang
