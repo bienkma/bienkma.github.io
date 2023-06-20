@@ -75,6 +75,7 @@ spec:
 ## Performance
 ## Intelligence
 ## Architecture
+* [Mastering WebSockets With Go](https://programmingpercy.tech/blog/mastering-websockets-with-go/)
 ## Interview
 ## Organization
 ## Talk
