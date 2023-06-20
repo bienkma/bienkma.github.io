@@ -10,8 +10,8 @@ spec:
     - Vietnamese
     - English
   education:
-    - Academy of Cryptography Techniques (2005-2010) # Information security engineer
     - Academy of Cryptography Techniques (2015-2017) # The Master of Information security 
+    - Academy of Cryptography Techniques (2005-2010) # Information security engineer
   code: # in order of proficiency
     - bash
     - golang
@@ -70,12 +70,12 @@ spec:
 ## Principle
 * [NoSQL vs. SQL: Important Differences & Which One Is Best for Your Project](https://www.upwork.com/resources/nosql-vs-sql)
 ## Scalability
+* [Mastering WebSockets With Go](https://programmingpercy.tech/blog/mastering-websockets-with-go/)
 ## Availability
 ## Stability
 ## Performance
 ## Intelligence
 ## Architecture
-* [Mastering WebSockets With Go](https://programmingpercy.tech/blog/mastering-websockets-with-go/)
 ## Interview
 ## Organization
 ## Talk
