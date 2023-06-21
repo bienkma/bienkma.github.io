@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# Introduction
+# About Me 
 ```yaml
 apiVersion: bienkma.github.io/v1
 kind: person
@@ -57,7 +57,7 @@ spec:
       - Telegraf
       - Nagios/cacti (NRPE, SNMP)
 ```
-# Content
+# My Notes 
 - [Principle](#principle)
 - [Scalability](#scalability)
 - [Availability](#availability)
