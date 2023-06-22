@@ -6,7 +6,7 @@ layout: default
 apiVersion: bienkma.github.io/v1
 kind: person
 spec:
-  name: bienkma
+  name: bien
   age: "> 25"
   gender: man
   languages: # in order of proficiency
