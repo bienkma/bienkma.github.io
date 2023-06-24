@@ -74,6 +74,7 @@ spec:
 * [NoSQL vs. SQL: Important Differences & Which One Is Best for Your Project](https://www.upwork.com/resources/nosql-vs-sql)
 ## Scalability
 * [Mastering WebSockets With Go](https://programmingpercy.tech/blog/mastering-websockets-with-go/)
+* [Multiplexing Explained - Redis](https://redis.com/blog/multiplexing-explained/)
 ## Availability
 ## Stability
 ## Performance
