@@ -77,6 +77,7 @@ spec:
 * [Multiplexing Explained - Redis](https://redis.com/blog/multiplexing-explained/)
 ## Availability
 ## Stability
+* [What Is a Microburst? How to Detect a Microburst?](https://support.huawei.com/enterprise/en/doc/EDOC1100086962)
 ## Performance
 ## Intelligence
 ## Architecture
@@ -84,8 +85,9 @@ spec:
 ## Organization
 * [ByteDance Open Sources Its Cloud Native Data Warehouse ByConity](https://byconity.github.io/blog/2023-05-24-byconity-announcement-opensources-its-cloudnative-data-warehouse)
 ## Talk
+* [Bamboo Firewall ](mysharing/bamboofirewall/bamboo_firewall.md)
 ## Book
 * [System Design the big archive](https://blog.bytebytego.com/api/v1/file/d60fa09a-c4b5-4e31-9dbd-5d049c6c8f49.pdf)
 ## Step by step
-* [How to setup data at rest encryption on Ubuntu](./database/data-at-rest.md)
+* [How to setup data at rest encryption on Ubuntu](mysharing/database/data-at-rest.md)
 * [Howto setup many services on Centos](https://www.server-world.info/en/note)
