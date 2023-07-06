@@ -84,6 +84,8 @@ spec:
 ## Interview
 ## Organization
 * [ByteDance Open Sources Its Cloud Native Data Warehouse ByConity](https://byconity.github.io/blog/2023-05-24-byconity-announcement-opensources-its-cloudnative-data-warehouse)
+* [Log analytics using ClickHouse](https://blog.cloudflare.com/log-analytics-using-clickhouse/)
+* [SigNoz - Logs Performance Benchmark](https://signoz.io/blog/logs-performance-benchmark/?utm_source=github&utm_medium=logs-benchmark)
 ## Talk
 * [Bamboo Firewall ](mysharing/bamboofirewall/bamboo_firewall.md)
 ## Book
