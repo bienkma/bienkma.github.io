@@ -65,6 +65,7 @@ spec:
 - [Performance](#performance)
 - [Intelligence](#intelligence)
 - [Architecture](#architecture)
+- [Security](#security)
 - [Interview](#interview)
 - [Organization](#organization)
 - [Talk](#talk)
@@ -81,13 +82,14 @@ spec:
 ## Performance
 ## Intelligence
 ## Architecture
+## Security
+* [Bamboo Firewall ](https://github.com/bamboo-firewall)
 ## Interview
 ## Organization
 * [ByteDance Open Sources Its Cloud Native Data Warehouse ByConity](https://byconity.github.io/blog/2023-05-24-byconity-announcement-opensources-its-cloudnative-data-warehouse)
 * [Log analytics using ClickHouse](https://blog.cloudflare.com/log-analytics-using-clickhouse/)
 * [SigNoz - Logs Performance Benchmark](https://signoz.io/blog/logs-performance-benchmark/?utm_source=github&utm_medium=logs-benchmark)
 ## Talk
-* [Bamboo Firewall ](mysharing/bamboofirewall/bamboo_firewall.md)
 ## Book
 * [System Design the big archive](https://blog.bytebytego.com/api/v1/file/d60fa09a-c4b5-4e31-9dbd-5d049c6c8f49.pdf)
 ## Step by step
