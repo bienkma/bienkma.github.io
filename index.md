@@ -90,6 +90,7 @@ spec:
 * [Log analytics using ClickHouse](https://blog.cloudflare.com/log-analytics-using-clickhouse/)
 * [SigNoz - Logs Performance Benchmark](https://signoz.io/blog/logs-performance-benchmark/?utm_source=github&utm_medium=logs-benchmark)
 ## Talk
+* [Policy as code with bamboo firewall](https://github.com/bamboo-firewall/docs/blob/main/case-studies/PaC-with-bamboofw.pdf)
 ## Book
 * [System Design the big archive](https://blog.bytebytego.com/api/v1/file/d60fa09a-c4b5-4e31-9dbd-5d049c6c8f49.pdf)
 ## Step by step
