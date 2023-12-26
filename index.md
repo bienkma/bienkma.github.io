@@ -80,6 +80,8 @@ spec:
 ## Stability
 * [What Is a Microburst? How to Detect a Microburst?](https://support.huawei.com/enterprise/en/doc/EDOC1100086962)
 ## Performance
+* [Optimizing monitoring troubleshooting vacuum operations in postgresql](https://cloud.google.com/static/solutions/optimizing-monitoring-troubleshooting-vacuum-operations-postgresql.pdf)
+* [Vacuum activity and show inprogress](https://github.com/bienkma/uber-scripts/blob/master/postgresql/sql/vacuum_activity.sql)
 ## Intelligence
 ## Architecture
 * [ByteByteGoHQ System Design 101](https://github.com/ByteByteGoHq/system-design-101)
