@@ -59,41 +59,42 @@ spec:
 ```
 # My Notes 
 - [Principle](#principle)
-- [Scalability](#scalability)
-- [Availability](#availability)
-- [Stability](#stability)
-- [Performance](#performance)
-- [Intelligence](#intelligence)
-- [Architecture](#architecture)
+- [Coding](#coding)
+- [Networking](#networking)
+- [Infrastructure](#infrastructure)
 - [Security](#security)
-- [Interview](#interview)
 - [Organization](#organization)
 - [Talk](#talk)
-- [Book](#book)
 
 ## Principle
 * [NoSQL vs. SQL: Important Differences & Which One Is Best for Your Project](https://www.upwork.com/resources/nosql-vs-sql)
-## Scalability
+* [System Design - bytebytego](https://bienkma.github.io/books/system-design-arch.pdf)
+
+## Coding
 * [Mastering WebSockets With Go](https://programmingpercy.tech/blog/mastering-websockets-with-go/)
 * [Multiplexing Explained - Redis](https://redis.com/blog/multiplexing-explained/)
-## Availability
-## Stability
+
+## Networking
+* [Demystifying DCN Topologies: Clos/Fat Trees – Part1](https://packetpushers.net/blog/demystifying-dcn-topologies-clos-fat-trees-part1/)
+* [Demystifying DCN Topologies: Clos/Fat Trees – Part2](https://packetpushers.net/blog/demystifying-dcn-topologies-clos-fat-trees-part2/)
 * [What Is a Microburst? How to Detect a Microburst?](https://support.huawei.com/enterprise/en/doc/EDOC1100086962)
-## Performance
-## Intelligence
+* [Cloud - Multi region - DCI - arista](https://bienkma.github.io/books/DCI-400G.pdf)
+* [APAC Cloud Builders 2023](https://bienkma.github.io/books/APAC-Cloud.pdf)
+
+## Infrastructure
+* [How to setup data at rest encryption on Ubuntu](mysharing/database/data-at-rest.md)
+* [Howto setup many services on Centos](https://www.server-world.info/en/note)
+
 ## Architecture
 * [ByteByteGoHQ System Design 101](https://github.com/ByteByteGoHq/system-design-101)
+
 ## Security
 * [Bamboo Firewall ](https://github.com/bamboo-firewall)
-## Interview
+
 ## Organization
 * [ByteDance Open Sources Its Cloud Native Data Warehouse ByConity](https://byconity.github.io/blog/2023-05-24-byconity-announcement-opensources-its-cloudnative-data-warehouse)
 * [Log analytics using ClickHouse](https://blog.cloudflare.com/log-analytics-using-clickhouse/)
 * [SigNoz - Logs Performance Benchmark](https://signoz.io/blog/logs-performance-benchmark/?utm_source=github&utm_medium=logs-benchmark)
+
 ## Talk
 * [Policy as code with bamboo firewall](https://github.com/bamboo-firewall/docs/blob/main/case-studies/PaC-with-bamboofw.pdf)
-## Book
-* [System Design - bytebytego](https://bienkma.github.io/books/books/system-design-arch.pdf)
-## Step by step
-* [How to setup data at rest encryption on Ubuntu](mysharing/database/data-at-rest.md)
-* [Howto setup many services on Centos](https://www.server-world.info/en/note)
