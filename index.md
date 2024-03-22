@@ -80,8 +80,6 @@ spec:
 ## Stability
 * [What Is a Microburst? How to Detect a Microburst?](https://support.huawei.com/enterprise/en/doc/EDOC1100086962)
 ## Performance
-* [Optimizing monitoring troubleshooting vacuum operations in postgresql](https://cloud.google.com/static/solutions/optimizing-monitoring-troubleshooting-vacuum-operations-postgresql.pdf)
-* [Vacuum activity and show inprogress](https://github.com/bienkma/uber-scripts/blob/master/postgresql/sql/vacuum_activity.sql)
 ## Intelligence
 ## Architecture
 * [ByteByteGoHQ System Design 101](https://github.com/ByteByteGoHq/system-design-101)
@@ -95,7 +93,7 @@ spec:
 ## Talk
 * [Policy as code with bamboo firewall](https://github.com/bamboo-firewall/docs/blob/main/case-studies/PaC-with-bamboofw.pdf)
 ## Book
-* [System Design the big archive](https://blog.bytebytego.com/api/v1/file/d60fa09a-c4b5-4e31-9dbd-5d049c6c8f49.pdf)
+* [System Design - bytebytego](https://bienkma.github.io/books/books/system-design-arch.pdf)
 ## Step by step
 * [How to setup data at rest encryption on Ubuntu](mysharing/database/data-at-rest.md)
 * [Howto setup many services on Centos](https://www.server-world.info/en/note)
