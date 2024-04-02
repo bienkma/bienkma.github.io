@@ -69,6 +69,7 @@ spec:
 ## Principle
 * [NoSQL vs. SQL: Important Differences & Which One Is Best for Your Project](https://www.upwork.com/resources/nosql-vs-sql)
 * [System Design - bytebytego](https://bienkma.github.io/books/system-design-arch.pdf)
+* [Design Patterns](https://refactoring.guru/design-patterns)
 
 ## Coding
 * [Mastering WebSockets With Go](https://programmingpercy.tech/blog/mastering-websockets-with-go/)
