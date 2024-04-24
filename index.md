@@ -81,6 +81,10 @@ spec:
 * [What Is a Microburst? How to Detect a Microburst?](https://support.huawei.com/enterprise/en/doc/EDOC1100086962)
 * [Cloud - Multi region - DCI - arista](https://bienkma.github.io/books/DCI-400G.pdf)
 * [APAC Cloud Builders 2023](https://bienkma.github.io/books/APAC-Cloud.pdf)
+* [how-to-build-a-nxos-9000v-based-evpn-vxlan-fabric](https://www.packetcoders.io/how-to-build-a-nxos-9000v-based-evpn-vxlan-fabric/#limitations3.1.2)
+* [VXLan & GRE in Vietnamese Langguage](https://github.com/hocchudong/thuctap012017/blob/master/XuanSon/Netowork%20Protocol/VXLAN-GRE%20Protocol.md)
+* [Overlay Tunneling with Open vSwitch - GRETAP, VXLAN, Geneve, GREoIPsec](https://costiser.ro/2016/07/07/overlay-tunneling-with-openvswitch-gre-vxlan-geneve-greoipsec/#.V8RUmx-g9Xh)
+* [VXLAN Series](https://blogs.vmware.com/vsphere/2013/04/vxlan-series-different-components-part-1.html)
 
 ## Infrastructure
 * [How to setup data at rest encryption on Ubuntu](mysharing/database/data-at-rest.md)
