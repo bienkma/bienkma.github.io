@@ -80,12 +80,12 @@ spec:
 * [Demystifying DCN Topologies: Clos/Fat Trees – Part2](https://packetpushers.net/blog/demystifying-dcn-topologies-clos-fat-trees-part2/)
 * [What Is a Microburst? How to Detect a Microburst?](https://support.huawei.com/enterprise/en/doc/EDOC1100086962)
 * [Cloud - Multi region - DCI - arista](https://bienkma.github.io/books/DCI-400G.pdf)
-* [APAC Cloud Builders 2023](https://bienkma.github.io/books/APAC-Cloud.pdf)
+* [APAC Cloud Builders 2023](https://github.com/bienkma/bienkma.github.io/blob/master/books/APAC-Cloud.pdf)
 * [how-to-build-a-nxos-9000v-based-evpn-vxlan-fabric](https://www.packetcoders.io/how-to-build-a-nxos-9000v-based-evpn-vxlan-fabric/#limitations3.1.2)
 * [VXLan & GRE in Vietnamese Langguage](https://github.com/hocchudong/thuctap012017/blob/master/XuanSon/Netowork%20Protocol/VXLAN-GRE%20Protocol.md)
 * [Overlay Tunneling with Open vSwitch - GRETAP, VXLAN, Geneve, GREoIPsec](https://costiser.ro/2016/07/07/overlay-tunneling-with-openvswitch-gre-vxlan-geneve-greoipsec/#.V8RUmx-g9Xh)
 * [VXLAN Series](https://blogs.vmware.com/vsphere/2013/04/vxlan-series-different-components-part-1.html)
-* [KVM Overlay Network with VXLAN](https://blog.dama.zip/kvm-overlay-network-with-vxlan)
+* [KVM Overlay Network with VXLAN](https://blog.dama.lol/kvm-overlay-network-with-vxlan)
 * [VXLAN: BGP EVPN with FRR](https://vincent.bernat.ch/en/blog/2017-vxlan-bgp-evpn)
 
 ## Infrastructure
