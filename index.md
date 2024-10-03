@@ -15,6 +15,10 @@ spec:
   education:
     - Academy of Cryptography Techniques (2015-2017) # The Master of Information security 
     - Academy of Cryptography Techniques (2005-2010) # Information security engineer
+    - Won first prize in Student Contest on Information Security 2010 - Vietnam
+    - LPI-1
+    - CKA
+    - PCIDSS
   code: # in order of proficiency
     - bash
     - golang
@@ -92,6 +96,7 @@ spec:
 ## Infrastructure
 * [How to setup data at rest encryption on Ubuntu](mysharing/database/data-at-rest.md)
 * [Howto setup many services on Centos](https://www.server-world.info/en/note)
+* [OVN SSL setup for Openstack](https://satishdotpatel.github.io/ovn-ssl-setup-with-openstack)
 
 ## Architecture
 * [ByteByteGoHQ System Design 101](https://github.com/ByteByteGoHq/system-design-101)
