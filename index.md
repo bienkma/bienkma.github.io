@@ -97,6 +97,8 @@ spec:
 * [How to setup data at rest encryption on Ubuntu](mysharing/database/data-at-rest.md)
 * [Howto setup many services on Centos](https://www.server-world.info/en/note)
 * [OVN SSL setup for Openstack](https://satishdotpatel.github.io/ovn-ssl-setup-with-openstack)
+* [Optimizing Computer Applications for Latency: Part 1: Configuring the Hardware](https://www.intel.com/content/www/us/en/developer/articles/technical/optimizing-computer-applications-for-latency-part-1-configuring-the-hardware.html)
+* [Performance Tuning with tuned and tuned-adm](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/performance_tuning_guide/sect-red_hat_enterprise_linux-performance_tuning_guide-performance_monitoring_tools-tuned_and_tuned_adm#sect-Red_Hat_Enterprise_Linux-Performance_Tuning_Guide-Performance_Monitoring_Tools-tuned_and_tuned_adm)
 
 ## Architecture
 * [ByteByteGoHQ System Design 101](https://github.com/ByteByteGoHq/system-design-101)
