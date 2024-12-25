@@ -99,6 +99,8 @@ spec:
 * [OVN SSL setup for Openstack](https://satishdotpatel.github.io/ovn-ssl-setup-with-openstack)
 * [Optimizing Computer Applications for Latency: Part 1: Configuring the Hardware](https://www.intel.com/content/www/us/en/developer/articles/technical/optimizing-computer-applications-for-latency-part-1-configuring-the-hardware.html)
 * [Performance Tuning with tuned and tuned-adm](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/performance_tuning_guide/sect-red_hat_enterprise_linux-performance_tuning_guide-performance_monitoring_tools-tuned_and_tuned_adm#sect-Red_Hat_Enterprise_Linux-Performance_Tuning_Guide-Performance_Monitoring_Tools-tuned_and_tuned_adm)
+* [Kernel Korner - I/O Schedulers](https://www.linuxjournal.com/article/6931)
+* [IOSchedulers](https://wiki.ubuntu.com/Kernel/Reference/IOSchedulers)
 
 ## Architecture
 * [ByteByteGoHQ System Design 101](https://github.com/ByteByteGoHq/system-design-101)
