@@ -102,6 +102,7 @@ spec:
 * [Kernel Korner - I/O Schedulers](https://www.linuxjournal.com/article/6931)
 * [IOSchedulers](https://wiki.ubuntu.com/Kernel/Reference/IOSchedulers)
 * [NixOS](https://www.infoq.com/articles/configuration-management-with-nix/)
+* [NixOS: A Purely Functional Linux Distribution](https://edolstra.github.io/pubs/nixos-jfp-final.pdf)
 
 ## Architecture
 * [ByteByteGoHQ System Design 101](https://github.com/ByteByteGoHq/system-design-101)
