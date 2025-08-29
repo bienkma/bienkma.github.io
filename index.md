@@ -101,6 +101,7 @@ spec:
 * [Performance Tuning with tuned and tuned-adm](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/performance_tuning_guide/sect-red_hat_enterprise_linux-performance_tuning_guide-performance_monitoring_tools-tuned_and_tuned_adm#sect-Red_Hat_Enterprise_Linux-Performance_Tuning_Guide-Performance_Monitoring_Tools-tuned_and_tuned_adm)
 * [Kernel Korner - I/O Schedulers](https://www.linuxjournal.com/article/6931)
 * [IOSchedulers](https://wiki.ubuntu.com/Kernel/Reference/IOSchedulers)
+* [NixOS](https://www.infoq.com/articles/configuration-management-with-nix/)
 
 ## Architecture
 * [ByteByteGoHQ System Design 101](https://github.com/ByteByteGoHq/system-design-101)
