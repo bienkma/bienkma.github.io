@@ -19,6 +19,7 @@ spec:
     - LPI-1
     - CKA
     - PCIDSS
+    - ITILv4 Foundation Certification
   code: # in order of proficiency
     - bash
     - golang
@@ -92,6 +93,7 @@ spec:
 * [KVM Overlay Network with VXLAN](https://blog.dama.lol/kvm-overlay-network-with-vxlan)
 * [VXLAN: BGP EVPN with FRR](https://vincent.bernat.ch/en/blog/2017-vxlan-bgp-evpn)
 * [Open Virtual Network (OVN)](https://docs.ovn.org/_/downloads/en/stable/pdf/)
+* [Deploying Shared-Border in VXLAN Multi-Site with Cisco NDFC](./books/deploying-shared-border-in-vxlan-multi-site-with-cisco-ndfc.pdf)
 
 ## Infrastructure
 * [How to setup data at rest encryption on Ubuntu](mysharing/database/data-at-rest.md)
