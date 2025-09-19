@@ -19,6 +19,7 @@ spec:
     - LPI-1
     - CKA
     - PCIDSS
+    - ITILv4 Foundation Certification
   code: # in order of proficiency
     - bash
     - golang
