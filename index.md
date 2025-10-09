@@ -105,6 +105,7 @@ spec:
 * [IOSchedulers](https://wiki.ubuntu.com/Kernel/Reference/IOSchedulers)
 * [NixOS](https://www.infoq.com/articles/configuration-management-with-nix/)
 * [NixOS: A Purely Functional Linux Distribution](https://edolstra.github.io/pubs/nixos-jfp-final.pdf)
+* [Linux kernel map](https://makelinux.github.io/kernel/map)
 
 ## Architecture
 * [ByteByteGoHQ System Design 101](https://github.com/ByteByteGoHq/system-design-101)
