@@ -112,6 +112,10 @@ spec:
 
 ## Security
 * [Bamboo Firewall ](https://github.com/bamboo-firewall)
+* [Rosenpass Whitepaper](./books/rosenpass-whitepaper.pdf)
+* [The First Quantum-Resistant Mesh VPN](https://netbird.io/knowledge-hub/the-first-quantum-resistant-mesh-vpn)
+* [Securing & Deploying Post-Quantum WireGuard-p1](./books/rosenpass-pqwg-slides.pdf)
+* [Securing & Deploying Post-Quantum WireGuard-p2](./books/rosenpass-pqwg-slides-2.pdf)
 
 ## Organization
 * [ByteDance Open Sources Its Cloud Native Data Warehouse ByConity](https://byconity.github.io/blog/2023-05-24-byconity-announcement-opensources-its-cloudnative-data-warehouse)
