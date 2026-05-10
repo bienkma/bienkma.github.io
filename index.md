@@ -67,6 +67,7 @@ spec:
 - [Coding](#coding)
 - [Networking](#networking)
 - [Infrastructure](#infrastructure)
+- [Architecture](#architecture)
 - [Security](#security)
 - [Organization](#organization)
 - [Talk](#talk)

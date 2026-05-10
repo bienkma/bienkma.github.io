@@ -16,8 +16,11 @@ GEM
     addressable (2.8.4)
       public_suffix (>= 2.0.2, < 6.0)
     ast (2.4.2)
+    base64 (0.3.0)
+    bigdecimal (4.1.2)
     colorator (1.1.0)
     concurrent-ruby (1.2.2)
+    csv (3.3.5)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
@@ -70,14 +73,14 @@ GEM
     listen (3.8.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
+    logger (1.7.0)
     mercenary (0.4.0)
-    mini_portile2 (2.8.9)
     minitest (5.18.1)
-    nokogiri (1.15.2)
-      mini_portile2 (~> 2.8.2)
+    nokogiri (1.19.3-aarch64-linux-gnu)
       racc (~> 1.4)
-    nokogiri (1.15.2-aarch64-linux)
+    nokogiri (1.19.3-arm64-darwin)
       racc (~> 1.4)
+    ostruct (0.6.3)
     parallel (1.23.0)
     parser (3.2.2.3)
       ast (~> 2.4.1)
@@ -85,7 +88,7 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (5.0.1)
-    racc (1.7.1)
+    racc (1.8.1)
     rack (3.2.5)
     rainbow (3.1.1)
     rake (13.0.6)
@@ -144,8 +147,14 @@ PLATFORMS
   arm64-darwin-24
 
 DEPENDENCIES
+  base64
+  bigdecimal
+  csv
   html-proofer (~> 3.0)
   jekyll-theme-cayman!
+  logger
+  nokogiri (>= 1.18.9)
+  ostruct
   rubocop-github (~> 0.16)
   w3c_validators (~> 1.3)
 

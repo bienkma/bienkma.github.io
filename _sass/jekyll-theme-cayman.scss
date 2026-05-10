@@ -1,7 +1,6 @@
 @import "normalize";
 @import "rouge-github";
 @import "variables";
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 
 @mixin large {
   @media screen and (min-width: #{$large-breakpoint}) {
@@ -110,7 +109,14 @@ a {
   text-align: center;
   background-color: $header-bg-color;
   #background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
-  background-image: url("./../../imgs/b.png");
+  /* PNG fallback; WebP preferred when supported (~30KB vs ~600KB+) */
+  background-image: url("/imgs/b.png");
+  background-image: image-set(
+    url("/imgs/b.webp") type("image/webp"),
+    url("/imgs/b.png") type("image/png")
+  );
+  background-repeat: no-repeat;
+  background-position: center top;
   background-size: 100% auto;
 
   @include large {
