@@ -1,0 +1,53 @@
+// Homepage avatar (Beastie / FreeBSD), floated left like tara.sh
+#content {
+  img[src$="#floatleft"] {
+    float: left;
+    display: block;
+    width: 140px;
+    height: auto;
+    margin: 0.25rem 1.25rem 0.75rem 0;
+  }
+
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+// Code blocks: light gray background (matches inline `code` in researcher theme)
+#content {
+  .highlight {
+    border-radius: 4px;
+    overflow: auto;
+
+    > pre,
+    .chroma {
+      background-color: #f5f5f5 !important;
+      border: 1px solid #e0e0e0;
+    }
+
+    > pre {
+      padding: 0.75rem 1rem !important;
+    }
+
+    pre code {
+      color: inherit;
+      background: transparent !important;
+      border: none;
+      border-radius: 0;
+      padding: 0;
+    }
+
+    // Reset per-token inline backgrounds from Chroma
+    .chroma [style*="background-color"] {
+      background-color: transparent !important;
+    }
+
+    .lntable,
+    .lntd,
+    .lntd pre {
+      background-color: transparent !important;
+    }
+  }
+}

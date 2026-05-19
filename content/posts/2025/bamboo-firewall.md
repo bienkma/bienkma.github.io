@@ -1,7 +1,12 @@
----
-layout: default
----
++++
+title = "Bamboo Firewall — Policy as Code cho on-premise"
+date = 2025-08-29
+slug = "bamboo-firewall"
+aliases = ["/mysharing/bamboofirewall/bamboo_firewall/", "/mysharing/bamboofirewall/bamboo_firewall.html"]
++++
+
 # Đặt vấn đề
+
 Trong suốt thời gian làm việc với vai trò là SystemAdmin hoặc DevOps Engineer cho các hệ thống dưới on-premise tôi gặp rất nhiều vấn đề liên quan tới việc làm sao để thiết lập chính sách bảo mật cho các máy chủ Linux mình quản lý. Hầu hết các cách mọi người đang làm là triển khai iptables hoặc 1 giải pháp firewall mềm nào đó để đảm bảo an toàn thông tin.
 
 Việc sử dụng iptables để thiết lập chính sách cho server và vùng máy chủ gặp phải vô vàn vấn đề trong việc quản trị:
@@ -10,7 +15,6 @@ Việc sử dụng iptables để thiết lập chính sách cho server và vùn
 - Rule iptables sẽ phải khai báo theo ip, port, subnets,.. và gắn với từng máy chủ
 - Rất là phức tạp nếu phải viết rule cho 1 supper app với số lượng máy chủ CSDL và dịch vụ lên tới con số hàng trăm node.
 - Rất là cực nhọc khi tôi vừa mở rule cho phép ip nguồn của app x.x.x.[1-22] gọi sang ip đích của db y.y.y.y port đích 3306 giao thức TCP. Bây giờ server y.y.y.y có kế hoạch đổi sang ip mới z.z.z.z (lưu ý rule này cần mở cho hàng trăm node app). Tôi phải upde lại nội dung file hoặc script và apply lại trên từng đó node (có thể chạy ansible playbook) - nhưng khoai.
-
 
 Từ các vấn đề trên tôi nghĩ nếu việc quản trị và thiết lập rule firewall cho các máy chủ dưới on-premise cũng giống như cách mà GCP (Google cloud platform), AWS Cloud Computing Services,... đang thiết lập cho các zone mạng, máy chủ trên cloud thì thật tuyệt. Khi đó ta sẽ có:
 
@@ -21,9 +25,8 @@ Từ các vấn đề trên tôi nghĩ nếu việc quản trị và thiết l�
 
 # Miêu tả giải pháp
 
-
-
 # Mục lục
+
 - [Mô hình thiết kế](#principle)
 - [Cài đặt và cấu hình](#scalability)
 - [Các câu hỏi thường gặp](#availability)

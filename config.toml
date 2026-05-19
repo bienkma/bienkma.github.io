@@ -1,0 +1,54 @@
+title = "bienkma's website"
+baseURL = "https://bienkma.github.io/"
+theme = "researcher"
+languageCode = "en-us"
+disableKinds = ["taxonomy", "term"]
+enableEmoji = true
+math = false
+
+[services]
+  [services.googleAnalytics]
+    id = ""
+
+[params]
+  author = "Biên"
+  description = "My notes and sharing with the world."
+  [params.footer]
+    copyright = "© 2021-2026 bienkma"
+    url = "https://bienkma.github.io/"
+
+  [[params.socialIcons]]
+    icon = "fab fa-github"
+    title = "GitHub"
+    url = "https://github.com/bienkma"
+  [[params.socialIcons]]
+    icon = "fab fa-linkedin"
+    title = "LinkedIn"
+    url = "https://www.linkedin.com/in/bienkma"
+
+[permalinks]
+  posts = "/posts/:year/:slug/"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    name = "Notes"
+    url = "/notes/"
+    weight = 3
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.highlight]
+  style = "github"
+  lineNos = false
+
+[outputs]
+  home = ["HTML", "RSS"]
