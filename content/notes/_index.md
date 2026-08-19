@@ -29,7 +29,7 @@ layout = "single"
 * [Demystifying DCN Topologies: Clos/Fat Trees – Part2](https://packetpushers.net/blog/demystifying-dcn-topologies-clos-fat-trees-part2/)
 * [What Is a Microburst? How to Detect a Microburst?](https://support.huawei.com/enterprise/en/doc/EDOC1100086962)
 * [Cloud - Multi region - DCI - arista](/books/DCI-400G.pdf)
-* [APAC Cloud Builders 2023](https://github.com/bienkma/bienkma.github.io/blob/master/books/APAC-Cloud.pdf)
+* [APAC Cloud Builders 2023](/books/APAC-Cloud.pdf)
 * [how-to-build-a-nxos-9000v-based-evpn-vxlan-fabric](https://www.packetcoders.io/how-to-build-a-nxos-9000v-based-evpn-vxlan-fabric/#limitations3.1.2)
 * [VXLan & GRE in Vietnamese Language](https://github.com/hocchudong/thuctap012017/blob/master/XuanSon/Netowork%20Protocol/VXLAN-GRE%20Protocol.md)
 * [Overlay Tunneling with Open vSwitch - GRETAP, VXLAN, Geneve, GREoIPsec](https://costiser.ro/2016/07/07/overlay-tunneling-with-openvswitch-gre-vxlan-geneve-greoipsec/#.V8RUmx-g9Xh)
@@ -54,7 +54,7 @@ layout = "single"
 
 ## Architecture
 
-* [Microsoft 100G/400G Coherent use case - Regional architecture cloud](https://github.com/bienkma/bienkma.github.io/blob/master/books/baca_b10k_01_180508.pdf)
+* [Microsoft 100G/400G Coherent use case - Regional architecture cloud](/books/baca_b10k_01_180508.pdf)
 * [ByteByteGoHQ System Design 101](https://github.com/ByteByteGoHq/system-design-101)
 
 ## Security
