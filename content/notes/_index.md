@@ -54,7 +54,7 @@ layout = "single"
 
 ## Architecture
 
-* [Microsoft 100G/400G Coherent use case - Regional architecture cloud]((https://github.com/bienkma/bienkma.github.io/blob/master/books/baca_b10k_01_180508.pdf)
+* [Microsoft 100G/400G Coherent use case - Regional architecture cloud](https://github.com/bienkma/bienkma.github.io/blob/master/books/baca_b10k_01_180508.pdf)
 * [ByteByteGoHQ System Design 101](https://github.com/ByteByteGoHq/system-design-101)
 
 ## Security
